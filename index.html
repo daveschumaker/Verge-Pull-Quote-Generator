@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Pull Quote Generator</title>
+  <meta name="description" content="Pull Quote Generator for The Verge">
+  <meta name="author" content="Dave Schumaker">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/verge_styles.css">
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/verge_app.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 10%">
+        <h4>Now you can create your own pull quotes from The Verge</h4>
+        <h5>It's like Uber for your own fake news stories</h5>
+        <p class="intro"><a href="http://www.theverge.com/" target="_blank">The Verge</a> is a very popular news site. One of the best things they do is feature relevant (and sometimes not) pull quotes within their stories.
+          Now you can create your own!</p>
+        <form id="quote-maker">
+          <input type="text" id="input-quote" value="Enter your witty pull quote here...">
+          <input type="button" value="Send" id="input-send">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container quotes">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 10%">
+
+        <a name="getquote" id="getquote"></a>
+        <p class="blur blurry-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+        <p id="pullquote">I shot a man in reno just to watch him die</p>
+        <p class="blur blurry-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
+        <p class="blur blurry-text">Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns footer" style="margin-top: 10%">
+        <p class="sharing"><a href="" id="share-quote">Share this quote</a> | <a href="#" id="new-quote">Write another</a></p>
+        <p>Inspired by <a href="https://twitter.com/vergepullquotes" target="_blank">@vergepullquotes</a><br/>
+          Created with lots of love by <a href="http://twitter.com/davely" target="_blank">@davely</a></p>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

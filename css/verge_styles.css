@@ -1,0 +1,88 @@
+@font-face {
+  font-family: ff-din-web-condensed;
+  src: url(../fonts/DINWeb-CondMedium.ttf);
+}
+
+@font-face {
+  font-family: adelle;
+  src: url(../fonts/adelle_regular-webfont.ttf);
+}
+
+.twelve {
+  margin-top: 20px !important;
+}
+
+.quotes {
+  margin-top: 0 !important;
+}
+
+.footer {
+  font-family: Adelle,Georgia,serif;
+  font-size: 1.5rem;
+  margin-top: 0 !important;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#pullquote {
+  max-width: 350px;
+  padding-top: 1rem;
+  padding-right: 10px;
+  float: left;
+  font-family: ff-din-web-condensed,Helvetica,sans-serif;
+  font-size: 3.5rem;
+  font-weight: 450;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fa4b2a;
+  /*margin: 0rem 1.75rem 1.5rem;*/
+  quotes: none;
+  display: block;
+  line-height: 1;
+}
+
+h4 {
+  font-family: Adelle,Georgia,serif;
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 4.2rem;
+}
+
+h5 {
+  font-family: Adelle,Georgia,serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: #BBB;
+  line-height: 1.0;
+  margin-top: 0;
+}
+
+#input-quote {
+  font-family: ff-din-web-condensed,Helvetica,sans-serif;
+  color: #BBB;
+  width: 75%;
+}
+
+#input-quote input[type=text]:focus, #input-quote textarea:focus {
+  color: black;
+}
+
+#input-send {
+  background-color: #cfcfcf;
+  text-align: center;
+  width: 15%;
+}
+
+p .blue {
+    color: white;
+    display: block;
+    font: bold 30px Helvetica;
+    letter-spacing: -1px;
+    padding: 50px;
+}
+
+.blurry-text {
+   text-shadow: 0 0 11px black;
+   color: transparent;
+}
