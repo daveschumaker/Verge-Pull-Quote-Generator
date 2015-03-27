@@ -1,5 +1,7 @@
 # Verge Pull Quote Generator
 
+![](https://raw.githubusercontent.com/daveschumaker/Verge-Pull-Quote-Generator/master/screenshots/screenshot.png)
+
 You can see this website in action here: [http://dave.ly/stuff/verge/](http://dave.ly/stuff/verge/)
 
 [*The Verge*](http://theverge.com) is a pretty popular news site that often features all sorts of stories. One feature that they frequently make use of is the "pull quote."
