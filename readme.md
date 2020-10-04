@@ -1,4 +1,4 @@
-# Verge Pull Quote Generator
+# Verge Pull Quote Generator 
 
 ![](https://raw.githubusercontent.com/daveschumaker/Verge-Pull-Quote-Generator/master/screenshots/screenshot.png)
 
@@ -6,9 +6,10 @@ You can see this website in action here: [http://dave.ly/stuff/verge/](http://da
 
 [*The Verge*](http://theverge.com) is a pretty popular news site that often features all sorts of stories. One feature that they frequently make use of is the "pull quote."
 
-So, what is a pull quote?
+So, what is a pull quote??
 
-> A pull quote (also known as a lift-out pull quote) is a quotation or excerpt from an article that is typically placed in a larger or distinctive typeface on the same page, serving to entice readers into an article or to highlight a key topic. The term is principally used in journalism and publishing.
+> A pull quote (also known as a lift-out pull quote) is a quotation or excerpt from an article that is typically placed in a larger or distinctive typeface on the same page, serving to entice readers into an article or to highlight a key topic.
+The term is principally used in journalism and publishing.
 
 (Via [Wikipedia](http://en.wikipedia.org/wiki/Pull_quote))
 
