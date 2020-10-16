@@ -5,6 +5,10 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
 
 html {
   font-family: sans-serif; /* 1 */
@@ -20,10 +24,7 @@ body {
   margin: 0;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
 
-/**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
  * and Firefox.
